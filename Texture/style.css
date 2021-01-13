@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    opacity: 1;
+}
+
+.header-container {
+    background-color: black;
+    width: 100%;
+    height: 730px;
+}
+
+.header-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    opacity: .13;
+}
+
+.header-container h1 {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: wheat;
+    font-family: 'Redressed', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    border-bottom: 1px solid wheat;
+    margin-top: 0;
+}
+
+.header-container nav {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 320px;
+    color: wheat;
+    top: 40%;
+}
+
+.header-container nav ul {
+    padding-left: 0;
+}
+
+.header-container nav ul li {
+    display: inline;
+    margin-left: 60px;
+}
+
+.header-container a {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: wheat;
+}
+.header-container a:hover {
+    transition: .3s;
+    opacity: .45;
+}
+
+.header-container .button a {
+    border: 1px solid;
+    padding: 10px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: wheat;
+}
+.header-container .button a:hover {
+    background: wheat;
+    color: hsl(207, 27%, 8%);
+    font-weight: bold;
+    opacity: 1;
+}
+ .header-container div {
+    height: 25%;
+    position: relative;
+    bottom: 62%;
+ }

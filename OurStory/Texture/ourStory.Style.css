@@ -1,0 +1,319 @@
+body {
+    margin: 0 0;
+    background-color: hsl(34, 50%, 8%);
+    opacity: 1;
+}
+
+.contacts-main article {
+    width: fit-content;
+    position: relative;
+    left: 20%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: hsl(208, 28%, 8%);
+    height: 70px;
+    z-index: 2;
+}
+
+.header-container ul {
+    text-align: center;
+    margin-top: 0;
+    padding: 20px 0;
+}
+
+.header-container ul li {
+    display: inline;
+    padding-left: 60px;
+}
+
+.header-container a {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: hsl(35, 50%, 70%);
+}
+
+.header-container a:hover {
+    transition: .3s;
+    opacity: .45;
+}
+
+.brand-button a {
+    position: absolute;
+    left: 40px;
+    border: 0;
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+    top: 10px;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+article {
+    font-family: 'Monda', sans-serif;
+    color: hsl(33, 50%, 14%);
+    width: 60%;
+    margin: 0 auto;
+    background-color: hsl(34, 27%, 85%);
+    padding: 100px;
+}
+
+article h2 {
+    font-family: 'Julius Sans One';
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.contact-page h2 {
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+article span {
+    font-size: 45px;
+    line-height: 0;
+    position: relative;
+    font-weight: bold;
+}
+
+article.ambience .artcl {
+    position: relative;
+    left: 35px;
+} 
+
+article.history .artcl {
+    position: relative;
+    right: 35px;
+}
+
+.image-container {
+    box-shadow: 5px 4px 7px hsl(208, 28%, 8%);
+}
+
+.image-container.bottles {
+    background: hsl(34, 27%, 95%);
+    border: 2px solid hsl(38, 53%, 35%);
+    width: 40%;
+    padding: 15px;
+    padding-bottom: 60px;
+    position: absolute;
+    left: 150px;
+    top: -15px;
+    transform: rotate(-2deg);
+    z-index: 1;
+}
+
+.image-container.bartender {
+    background: hsl(34, 27%, 95%);
+    border: 2px solid hsl(38, 53%, 35%);
+    width: 23%;
+    padding: 15px;
+    padding-bottom: 75px;
+    position: absolute;
+    left: 40px;
+    top: 239px;
+    transform: rotate(2deg);
+    z-index: 3;
+}
+
+.image-container.chalkboard {
+    background: hsl(34, 27%, 95%);
+    border: 2px solid hsl(38, 53%, 35%);
+    width: 20%;
+    padding: 15px;
+    padding-bottom: 60px;
+    position: absolute;
+    left: 415px;
+    top: 380px;
+    transform: rotate(6deg);
+    z-index: 2;
+}
+
+.image-container.berry-cocktail {
+    background: hsl(34, 27%, 95%);
+    border: 2px solid hsl(38, 53%, 35%);
+    width: 35%;
+    padding: 11px;
+    position: relative;
+    left: 70px;
+    transform: rotate(7deg);
+    float: right;
+}
+
+.image-container.white-cocktail {
+    background: hsl(34, 27%, 95%);
+    border: 2px solid hsl(38, 53%, 35%);
+    width: 35%;
+    padding: 11px;
+    position: relative;
+    right: 120px;
+    top: 65px;
+    transform: rotate(-2deg);
+    float: left;
+
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.cocktail-name {
+    text-align: center;
+    color: hsl(208, 31%, 15%);
+    font-family: 'Redressed';
+    font-size: 28px;
+    margin: 5px 0;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.history .artcl p {
+    margin-left: 350px;
+}
+
+.logos {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 300px;
+    padding-top: 30px;
+    border-top: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: .8;
+}
+
+.columns {
+    margin: 0 auto;
+    width: 100%;
+    height: 265px;
+    border-top: 2px solid;
+    padding-top: 100px;
+}
+
+.columns div {
+    width: 45%;
+    display: inline-block;
+}
+
+.columns div h4 {
+    font-size: 25px;
+}
+
+.columns-excellence {
+    float: left;
+}
+
+.columns-freshIngredients {
+    float: right;
+}
+
+article div.logos > img {
+    height: 100px;
+    margin: 0px 25px;
+}
+
+.contact-page-container div {
+    text-align: center;
+}
+
+.contact-page-container ul {
+    list-style-position: outside;
+    padding: 0;
+    list-style-type: none;
+}
+
+    /* --- Footer --- */
+footer {
+    background-color: hsl(35, 50%, 70%);
+    color: hsl(208, 28%, 8%);
+    border-top: 2px solid hsl(208, 28%, 8%);
+    position: relative;
+    height: 300px;
+    z-index: 10;
+}
+
+footer .footer-contacts {
+    display: flex;
+    justify-content: center;
+    font-family: 'Monda';
+    font-size: 13px;
+}
+
+footer .footer-contacts div {
+    text-align: center;
+    padding: 0 60px;
+    padding-top: 15px;
+}
+
+footer .footer-contacts img {
+    height: 80px;
+}
+
+footer ul {
+    list-style-position: outside;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer .footer-contacts li {
+    line-height: 2;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+
+footer .copyright {
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+}
+
+.copyright p,
+.copyright ul,
+.copyright ul li {
+    display: inline;
+}
+
+.copyright div {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+.copyright div p, 
+.copyright div ul {
+    padding: 0 200px;
+    font-size: 12px;
+    font-family: 'Monda', sans-serif;
+}
+
+.copyright a {
+    color: hsl(208, 28%, 8%);
+}
+
+footer .copyright ul li+li::before {
+    content: "|";
+    padding: 10px;
+}
+
+.background{
+    position: fixed;
+    top: 1px;
+    opacity: .2;
+    width: 100%;
+}
