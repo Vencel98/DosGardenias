@@ -315,5 +315,5 @@ footer .copyright ul li+li::before {
     position: fixed;
     top: 1px;
     opacity: .2;
-    height: 100%;
+    width: 100%;
 }
